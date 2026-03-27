@@ -1,0 +1,12 @@
+{
+  "python.analysis.extraPaths": ["/media/SSD/siyuan/NGV_GVFi/FreeGave_continuous_clean"],
+  "python.analysis.indexing": false,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.openFilesOnly": true,
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "git.enabled": false,
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": []
+}

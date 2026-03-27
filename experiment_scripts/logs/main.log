@@ -1,0 +1,10 @@
+=== Experiment Started at 2026-03-24 23:41:14 ===
+GPUs: 0 1 2 3 4 5 6 7 8 9
+Control Num: 7000
+Total incomplete scenes: 0
+
+
+=== Experiment Finished at 2026-03-24 23:41:19 ===
+Completed scenes: 103
+Failed scenes: 10
+Remaining incomplete: 0

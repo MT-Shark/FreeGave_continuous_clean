@@ -1,0 +1,17 @@
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/BasicScene/1-1_CigarRoom_yafei_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/BasicScene/4-1_Factory_yafei_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FifthRound/3-2_4-1_11_CigarRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FifthRound/3-2_5-1_15-2_Office_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FifthRound/3-2_5-1_8-1_SmugglerCove_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FifthRound/3-2_8-1_15-1_Office_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FifthRound/3-2_8-1_17_Factory_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FirstRound/1-1_3-2_15-1_CigarRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FirstRound/3-3_5-2_8-1_SmugglerCove_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FirstRound/3-3_8-1_15-1_CigarRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FirstRound/3-4_15-1_15-3_TelegraphRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FirstRound/3-4_4-1_5-2_TelegraphRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FourthRound/4-2_11_28_TelegraphRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FourthRound/4-2_13_17_Office_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/FourthRound/4-2_15-2_28_Factory_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/TwoCombinations/3-2_15-1_CigarRoom_sequence
+/media/HDD2/siyuan/PhysicsBenchmark/disk7/MovieRenders/Origin/TwoCombinations/3-2_4-2_Office_sequence

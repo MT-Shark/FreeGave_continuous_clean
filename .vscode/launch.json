@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "1-1_ModernHouse_chenghu",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "incremental_train_ControlNode.py",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "-s", "PhysicsBenchmark/disk0/MovieRenders/Origin/BasicScene/16-1_Factory_hejun_sequence",
+                "-m", "output/test",
+                "--eval",
+                "--is_blender",
+                "--dt", "0.0111111",
+                "--incremental_warmup_time", "0",
+                "--incremental_max_time", "0.9",
+                "--iter_basis", "50",
+                "--iter_gs", "150",
+                "--noStatic_mask",
+                "--cn_init", "zero",
+                "--cn_KNN", "1",
+                "--cn_hyperdim", "16",
+                "--cn_KNN_method", "xyz",
+                "--control_num", "10000",
+                "--warmup_iter_basis", "120",
+                "--warmup_iter_gs", "200",
+                "--cn_interpolate_method", "dqb",
+                "--predict_steps", "10",
+                "--densify_grad_threshold", "0.0002",
+                "--size_threshold", "20",
+                "--static_warmup_iter", "300",
+                "--zero_padding",
+                "--skip_render",
+                // "--sampleTrainingView", "100",
+                "--max_depth" , "-1"
+      ],
+      "console": "integratedTerminal",
+      "env": {
+                "CUDA_VISIBLE_DEVICES": "7",  // 指定使用 GPU 0，可根据需要改为 "0,1" 等
+                "OMP_NUM_THREADS": "32",
+                "MKL_NUM_THREADS": "32",
+                "PYTHONPATH": "/media/SSD/siyuan/NGV_GVFi/FreeGave_continuous_clean"
+
+            }
+    },
+    {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "train_depthMask",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "incremental_train_ControlNode.py",
+            "args": [
+                "-s", "data/1-2_Factory_shouwang_sequence",
+                "-m", "output/1-2_Factory_shouwang_sequence_depthMask",
+                "--eval",
+                "--is_blender",
+                "--dt", "0.0111111",
+                "--incremental_warmup_time", "0",
+                "--incremental_max_time", "0.9",
+                "--iter_basis", "50",
+                "--iter_gs", "150",
+                "--noStatic_mask",
+                "--cn_init", "zero",
+                "--cn_KNN", "1",
+                "--cn_hyperdim", "16",
+                "--cn_KNN_method", "xyz",
+                "--control_num", "10000",
+                "--warmup_iter_basis", "120",
+                "--warmup_iter_gs", "200",
+                "--cn_interpolate_method", "dqb",
+                "--predict_steps", "10",
+                "--densify_grad_threshold", "0.0002",
+                "--size_threshold", "20",
+                "--static_warmup_iter", "3000",
+                "--zero_padding",
+                // "--skip_render",
+                // "--sampleTrainingView", "100",
+                "--max_depth" , "10",
+                // "--seg_mask" 
+      ],
+      "console": "integratedTerminal",
+      "env": {
+                "CUDA_VISIBLE_DEVICES": "5"  // 指定使用 GPU 0，可根据需要改为 "0,1" 等
+          
+            }
+    },
+    {
+            "name": "warmup",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "incremental_train_ControlNode_warmup.py",
+            "args": [
+                "-s", "data/1-2_Factory_shouwang_sequence",
+                "-m", "output/1-2_Factory_shouwang_sequence_warmup",
+                "--eval",
+                "--is_blender",
+                "--dt", "0.0111111",
+                "--incremental_warmup_time", "0.1",
+                "--incremental_max_time", "0.9",
+                "--iter_basis", "50",
+                "--iter_gs", "150",
+                "--noStatic_mask",
+                "--cn_init", "zero",
+                "--cn_KNN", "1",
+                "--cn_hyperdim", "16",
+                "--cn_KNN_method", "xyz",
+                "--control_num", "10000",
+                "--warmup_iter_basis", "120",
+                "--warmup_iter_gs", "200",
+                "--cn_interpolate_method", "dqb",
+                "--predict_steps", "10",
+                "--densify_grad_threshold", "0.0002",
+                "--size_threshold", "20",
+                "--static_warmup_iter", "3000",
+                "--zero_padding",
+                // "--skip_render",
+                // "--sampleTrainingView", "100",
+                "--max_depth" , "-1"
+      ],
+      "console": "integratedTerminal",
+      "env": {
+                "CUDA_VISIBLE_DEVICES": "1",  // 指定使用 GPU 0，可根据需要改为 "0,1" 等
+                "OMP_NUM_THREADS": "32",
+                "MKL_NUM_THREADS": "32"
+
+            }
+    }
+    ]
+}
